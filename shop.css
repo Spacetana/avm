@@ -136,10 +136,10 @@ footer {
 .copyright-footer {
     list-style-type: none;
 }
-.copyright-footer li {
+.license-copyright li {
     padding: 2px 0;
 }
-.copyright-footer a {
+.license-copyright a {
     text-decoration: none;
     color: white;
 }
