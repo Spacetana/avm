@@ -113,8 +113,11 @@ nav li:hover a{
 footer {
     flex-shrink: 0;
     border-top: 1px dashed #000;
-    width: 100%;
-    background: #2c2c2c;
+    float: center;
+    width: 300px;
+    padding: 50px 60px 70px;
+    background: #2c2c2c; /*2c2c2c;191919*/
+    text-align: center;
     color: white;
 }
 .contenu-footer {
