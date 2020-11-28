@@ -135,14 +135,20 @@ footer {
 
 /* copyright */
 
-.copyright-footer a{
+.copyright-footer {
+    list-style-type: none;
+}
+.copyright-footer li {
+    padding: 2px 0;
+}
+.copyright-footer a {
     text-decoration: none;
     color: white;
 }
-
-.copyright-footer a:hover{
+.copyright-footer a:hover {
     color: darkgray;
 }
+
 
 /* contact */
 
