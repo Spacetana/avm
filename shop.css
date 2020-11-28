@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    backdoor-color: red;
+    background-color: indianred;
 }
 
 /*Menu*/
@@ -51,7 +51,7 @@ nav li:hover a{
     overflow: hidden;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    border: 20px solid #FFF;
+    border: 20px solid indianred;
 }
 .child{
     float: center;
@@ -101,6 +101,7 @@ nav li:hover a{
 }
 .child a:hover{
     opacity: 1;
+    background: royalblue;
     border-color: skyblue;
 }
 
@@ -110,77 +111,23 @@ nav li:hover a{
 
 /* Footer */
 
-footer {
-    flex-shrink: 0;
-    border-top: 1px dashed #000;
-    background: #2c2c2c; 
-    text-align: center;
-    position: relative;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    -webkit-box-pack: center;
-    justify-content: center;
-    transition: all 0.15s ease-in-out 0s;  
-    color: white;
-}
-.contenu-footer {
-    width: 1200px;
+footer p{
     margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    font-size: 20px;
-    padding: 50px 0 100px;
+    color: #2c2c2c;
 }
 
-.bloc {
-    width: 25%;
-    margin: 0 30px;
+footer{
+    text-align: center;
+    font-weight: 400;
+    font-size: 1em;
+    margin: 3em auto;
 }
 
-/* copyright */
-
-.license-copyright {
-    list-style-type: none;
-}
-.license-copyright li {
-    padding: 2px 0;
-}
-.license-copyright a {
+footer a{
     text-decoration: none;
-    color: white;
-}
-.license-copyright a:hover {
     color: darkgray;
 }
 
-/* contact */
-
-.footer-contact h3,
-.footer-copyright h3,
-.footer-services h3 {
-    font-size: 25px;
-    padding-bottom: 20px;
+footer a:hover{
     color: grey;
-}
-
-.footer-contact p {
-    padding: 5px 0;
-}
-
-/* Services */
-
-.liste-services {
-    list-style-type: none;
-}
-.liste-services li {
-    padding: 2px 0;
-}
-.liste-services a {
-    text-decoration: none;
-    color: white;
-}
-.liste-services a:hover {
-    color: darkgray;
 }
