@@ -111,23 +111,69 @@ nav li:hover a{
 
 /* Footer */
 
-footer p{
+footer {
+    flex-shrink: 0;
+    border-top: 1px dashed #000;
+    width: 100%;
+    background: #2c2c2c;
+    color: white;
+}
+.contenu-footer {
+    width: 1200px;
     margin: 0 auto;
-    color: #2c2c2c;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 20px;
+    padding: 50px 0 100px;
 }
 
-footer{
-    text-align: center;
-    font-weight: 400;
-    font-size: 1em;
-    margin: 3em auto;
+.bloc {
+    width: 25%;
+    margin: 0 30px;
 }
 
-footer a{
+/* Copyright */
+
+.license-copyright {
+    list-style-type: none;
+}
+.license-copyright li {
+    padding: 2px 0;
+}
+.license-copyright a {
     text-decoration: none;
-    color: darkgray;
+    color: white;
+}
+.license-copyright a:hover {
+    color: rgb(3,3,3);
 }
 
-footer a:hover{
-    color: grey;
+/* contact */
+.footer-contact h3,
+.footer-services h3,
+.footer-copyright h3 {
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.footer-contact p {
+    padding: 5px 0;
+}
+
+/* Services */
+
+
+.liste-services {
+    list-style-type: none;
+}
+.liste-services li {
+    padding: 2px 0;
+}
+.liste-services a {
+    text-decoration: none;
+    color: white;
+}
+.liste-services a:hover {
+    color: rgb(3,3,3);
 }
