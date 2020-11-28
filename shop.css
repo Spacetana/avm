@@ -116,7 +116,7 @@ footer {
     border-top: 1px dashed #000;
     width: 100%;
     background: #2c2c2c;
-    color: gray;
+    color: white;
 }
 .contenu-footer {
     width: 1200px;
@@ -150,6 +150,7 @@ footer {
 .footer-services h3 {
     font-size: 25px;
     padding-bottom: 20px;
+    color: grey;
 }
 
 .footer-contact p {
