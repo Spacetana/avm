@@ -152,9 +152,7 @@ footer {
 /* Services */
 
 
-.liste-services,
-.liste-horaires,
-.liste-media {
+.liste-services {
     list-style-type: none;
 }
 .liste-services li {
