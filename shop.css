@@ -115,8 +115,8 @@ footer {
     flex-shrink: 0;
     border-top: 1px dashed #000;
     width: 100%;
-    background: #2c2c2c;
-    color: darkgray;
+    background: #f1f1f1;
+    color: #333;
 }
 .contenu-footer {
     width: 1200px;
@@ -159,8 +159,8 @@ footer {
 }
 .liste-services a {
     text-decoration: none;
-    color: darkgray;
+    color: #333;
 }
 .liste-services a:hover {
-    color: darkgray;
+    color: rgb(3,3,3);
 }
