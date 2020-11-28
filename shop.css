@@ -101,8 +101,6 @@ nav li:hover a{
 }
 .child a:hover{
     opacity: 1;
-    background: royalblue;
-    border-color: skyblue;
 }
 
 .child input:hover{
