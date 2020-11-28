@@ -118,10 +118,6 @@ footer {
     background: #2c2c2c;
     color: #333;
 }
-.copyright-footer a{
-    text-decoration: none;
-    color: #darkgray;
-}
 .contenu-footer {
     width: 1200px;
     margin: 0 auto;
@@ -137,6 +133,11 @@ footer {
     margin: 0 30px;
 }
 
+/* copyright */
+.copyright-footer a{
+    text-decoration: none;
+    color: #darkgray;
+}
 /* contact */
 .footer-contact h3,
 .footer-services h3 {
