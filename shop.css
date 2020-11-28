@@ -116,7 +116,7 @@ footer {
     border-top: 1px dashed #000;
     width: 100%;
     background: #2c2c2c;
-    color: white;
+    color: darkgray;
 }
 .contenu-footer {
     width: 1200px;
@@ -146,7 +146,7 @@ footer {
     color: white;
 }
 .license-copyright a:hover {
-    color: rgb(3,3,3);
+    color: grey;
 }
 
 /* contact */
@@ -175,5 +175,5 @@ footer {
     color: white;
 }
 .liste-services a:hover {
-    color: rgb(3,3,3);
+    color: grey;
 }
