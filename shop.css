@@ -159,8 +159,8 @@ footer {
 }
 .liste-services a {
     text-decoration: none;
-    color: #333;
+    color: darkgray;
 }
 .liste-services a:hover {
-    color: rgb(3,3,3);
+    color: darkgray;
 }
