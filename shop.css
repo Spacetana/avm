@@ -134,11 +134,18 @@ footer {
 }
 
 /* copyright */
+
 .copyright-footer a{
     text-decoration: none;
-    color: #darkgray;
+    color: gray;
 }
+
+.copyright-footer a:hover{
+    color: darkgrey;
+}
+
 /* contact */
+
 .footer-contact h3,
 .footer-services h3 {
     font-size: 25px;
