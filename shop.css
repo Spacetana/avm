@@ -51,7 +51,7 @@ nav li:hover a{
     overflow: hidden;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    border: 20px solid indianred;
+    border: 20px solid #FFF;
 }
 .child{
     float: center;
