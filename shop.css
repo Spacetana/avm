@@ -116,7 +116,7 @@ footer {
     border-top: 1px dashed #000;
     width: 100%;
     background: #2c2c2c;
-    color: gray;
+    color: darkgray;
 }
 .contenu-footer {
     width: 1200px;
@@ -137,11 +137,11 @@ footer {
 
 .copyright-footer a{
     text-decoration: none;
-    color: gray;
+    color: darkgray;
 }
 
 .copyright-footer a:hover{
-    color: darkgrey;
+    color: gray;
 }
 
 /* contact */
@@ -166,8 +166,8 @@ footer {
 }
 .liste-services a {
     text-decoration: none;
-    color: gray;
+    color: darkgray;
 }
 .liste-services a:hover {
-    color: darkgray;
+    color: gray;
 }
