@@ -111,12 +111,17 @@ nav li:hover a{
 
 /* Footer */
 
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: red;
-  color: white;
-  text-align: center;
+.footer p{ 
+    margin: 0 auto; color: #2c2c2c; 
+} 
+
+.footer{
+    text-align: center; font-weight: 400; font-size: 1em; margin: 3em auto; 
+} 
+
+.footer a{ 
+    text-decoration: none; color: darkgray;
+}
+.footer a:hover{ 
+    color: grey; 
 }
