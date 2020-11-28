@@ -51,7 +51,7 @@ nav li:hover a{
     overflow: hidden;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    border: 20px solid indianred;
+    border: 20px solid white;
 }
 .child{
     float: center;
@@ -101,7 +101,6 @@ nav li:hover a{
 }
 .child a:hover{
     opacity: 1;
-    background: royalblue;
     border-color: skyblue;
 }
 
