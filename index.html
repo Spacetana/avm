@@ -23,25 +23,51 @@
 
         <!-- Explication  -->
         
-            <div class="parent">
-                <div class="child">
-                    <h1>PAYMENT</h1>
-                    <input id="proc" type="submit" value= "For now, payments are made only through paypal.">
-                </div>
-                <div class="child">
-                    <h1>RECEIVE</h1>
-                    <input id="proc" type="submit" value= "You will receive your vm at the email that will be used for payment, it can take from 5 minutes to 15 minutes (depending on the number of orders).2 vCPU Intel E5-2673 V4">
-                </div>
-                <div class="child">
-                    <h1>OS</h1>
-                    <input id="proc" type="submit" value= "Windows Pro, Version 1889">
-                    <input id="ram" type="submit" value="Windows Server 2016, 2019">
-                    <input id="disque" type="submit" value="Ubuntu Server 16.04, 18.04">
-                    <input id="stockage" type="submit" value="Oracle Linux 7.8">
-                    <input id="prix" type="submit" value="Debian 10 Buster">
-                    <inpute id="final" type="submit" value="When paying you will have to indicate by message the OS">
-                </div>
-            </div>
+/* Texte */
+
+text {
+    flex-shrink: 0;
+    border-top: 1px dashed #000;
+    width: 100%;
+    background: white;
+}
+.text-contenu {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 20px;
+    padding: 50px 0 100px;
+}
+
+.bloc {
+    width: 25%;
+    margin: 0 30px;
+}
+
+.text-payment h3,
+.text-receive h3,
+.text-os h3 {
+    font-size: 25px;
+    padding-bottom: 20px;
+    color: black;
+}
+
+.text-payment p {
+    padding: 2px 0;
+    color: black;
+}
+
+.text-receive p {
+    padding: 2px 0;
+    color: black;
+}
+
+.text-os p {
+    padding: 5px 0;
+    color: black;
+}
         
         <!-- Footer -->
         
