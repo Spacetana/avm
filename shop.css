@@ -138,19 +138,3 @@ footer {
     padding: 5px 0;
     color: white;
 }
-
-/* Services */
-
-.liste-services {
-    list-style-type: none;
-}
-.liste-services li {
-    padding: 2px 0;
-}
-.liste-services a {
-    text-decoration: none;
-    color: white;
-}
-.liste-services a:hover {
-    color: grey;
-}
