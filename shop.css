@@ -115,7 +115,6 @@ footer {
     background: #2c2c2c;
 }
 .contenu-footer {
-    position: relative;
     width: 1200px;
     margin: 0 auto;
     display: flex;
@@ -150,10 +149,8 @@ footer {
 .footer-contact h3,
 .footer-services h3,
 .footer-copyright h3 {
-    width: 100%;
-    display: inline-block;
-    text-decoration: none;
-    padding: 20px 30px;
+    font-size: 25px;
+    padding-bottom: 20px;
     color: grey;
 }
 
