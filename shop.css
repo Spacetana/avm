@@ -82,19 +82,10 @@ nav li:hover a{
 /* Footer */
 
 .footer {
-    width: 100vw;
     display: block;
-    overflow: hidden;
-    padding: 70px 0;
-    box-sizing: border-box;
+    position: relative;
+    height: 400px;
     background-color: #2c2c2c;
-}
-
-.inner_footer{
-    display: block;
-    margin: 0 auto;
-    width: 1100px;
-    height: 100%;
 }
 
 .innner_footer .footer_third{
