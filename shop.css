@@ -93,7 +93,7 @@ nav li:hover a{
 footer {
     text-align: center;
     display: block;
-    position: relative;
+    position: absolute;
     margin: 500px;
     background: #2c2c2c;
 }
