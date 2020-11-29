@@ -1,9 +1,9 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
-    text-align-center;
-  
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
 }
 
 /*Menu*/
@@ -86,70 +86,18 @@ nav li:hover a{
 
 /* Footer */
 
-footer {
-    margin: 0 auto;
-    width: 1100px;
-    height; 100%;
+.footer {
+    width: 100vw;
     display: block;
     background: #2c2c2c;
-}
-.contenu-footer {
-    width: 1200px;
-    margin: 0 auto;
-    font-size: 18px;
-    padding: 50px 0 100px;
+    overflow: hidden;
+    padding: 70px 0;
+    box-sizing: border-box;
 }
 
-.bloc {
-    width: 25%;
-    margin: 0 30px;
-}
-
-/* Copyright */
-
-.license-copyright {
-    list-style-type: none;
-}
-.license-copyright li {
-    padding: 2px 0;
-}
-.license-copyright a {
-    text-decoration: none;
-    color: white;
-}
-.license-copyright a:hover {
-    color: grey;
-}
-
-/* contact */
-.footer-contact h3,
-.footer-services h3,
-.footer-copyright h3 {
-    font-family: 'arial';
-    font-size: 22px;
-    padding-bottom: 20px;
-    color: white;
+.inner_footer{
     display: block;
-    margin-bottom: 20px;
-}
-
-.footer-contact p {
-    padding: 5px 0;
-    color: white;
-}
-
-/* Services */
-
-.liste-services {
-    list-style-type: none;
-}
-.liste-services li {
-    padding: 2px 0;
-}
-.liste-services a {
-    text-decoration: none;
-    color: white;
-}
-.liste-services a:hover {
-    color: grey;
+    margin: 0 auto;
+    width: 1100px;
+    height: 100%
 }
