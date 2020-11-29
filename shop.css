@@ -145,8 +145,9 @@ footer {
 .footer-contact h3,
 .footer-services h3,
 .footer-copyright h3 {
-    font-size: 25px;
-    padding-bottom: 20px;
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-transform: uppercase;
     color: grey;
 }
 
