@@ -46,7 +46,6 @@ nav li:hover a{
 
 .text {
     flex-shrink: 0;
-    border-top: 1px dashed #000;
     width: 100%;
     background: white;
 }
