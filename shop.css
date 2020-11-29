@@ -128,9 +128,12 @@ footer {
 .footer-contact h3,
 .footer-services h3,
 .footer-copyright h3 {
-    font-size: 25px;
+    font-family: 'arial';
+    font-size: 22px;
     padding-bottom: 20px;
-    color: grey;
+    color: white;
+    display: block;
+    margin-bottom: 20px;
 }
 
 .footer-contact p {
