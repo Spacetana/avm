@@ -109,12 +109,25 @@ nav li:hover a{
     height: 100%;
 }
 
-.innner_fooert .footer_third:last-child{
+.innner_footer .footer_third:last-child{
     margin-right: 0;
 }
 
-.innner_fooert .footer_third h1{
+.innner_footer .footer_third h1{
     font-family: 'arial';
     font-site: 22px;
     color: white;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.inner_footer .footer_third a{
+     font-family: 'arial';
+    font-site: 18px;
+    color: white;
+    display: block;
+    font-weight: 200;
+    width: 100%;
+    margin-bottom: 20px;
 }
