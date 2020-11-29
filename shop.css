@@ -81,55 +81,22 @@ article p {
 
 footer {
   text-align: center;
+  background-color: #333;
+  color: #fff;
   padding: 20px;
   position: absolute;
   bottom: 0;
   width: 100%;
   /* position: fixed;
   z-index: 1; */
-    background: #2c2c2c;
-}
-.contenu-footer {
-    width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    font-size: 20px;
-    padding: 50px 0 100px;
 }
 
-.bloc {
-    width: 25%;
-    margin: 0 30px;
-}
-
-/* Copyright */
-
-.license-copyright {
-    list-style-type: none;
-}
-.license-copyright li {
-    padding: 2px 0;
-}
-.license-copyright a {
-    text-decoration: none;
-    color: white;
-}
-.license-copyright a:hover {
-    color: grey;
-}
-
-/* contact */
-.footer-contact h3,
-.footer-services h3,
-.footer-copyright h3 {
-    font-size: 25px;
-    padding-bottom: 20px;
-    color: grey;
-}
-
-.footer-contact p {
-    padding: 5px 0;
-    color: white;
+@media(max-width:768px) {
+  header { padding: 30px 20px; }
+  header h1 { font-size: 36px; margin-bottom: 22px; }
+  header p { font-size: 18px; }
+  main { width: 100vw; padding: 20px; }
+  article { margin-bottom: 16px; font-size: 14px; }
+  article h3 { margin: 10px 0 20px 0; }
+  article p { margin-top: 16px; line-height: 20px; }
 }
