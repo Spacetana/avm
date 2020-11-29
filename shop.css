@@ -91,10 +91,8 @@ nav li:hover a{
 /* Footer */
 
 footer {
-    text-align: center;
-    display: block;
-    position: absolute;
-    margin: 500px;
+    position: relative;
+    height: 400px;
     background: #2c2c2c;
 }
 .contenu-footer {
