@@ -83,12 +83,11 @@ article p {
 }
 
 article a {
-  color: gray;
   text-decoration: none;
 }
 
 article a:hover {
-  color: darkgray;
+  color: gray;
 }
 
 @media(max-width:768px) {
