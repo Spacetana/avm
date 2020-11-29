@@ -23,11 +23,11 @@ nav li{
 
 nav a{
     width: 100%;
-    background-color:#2c2c2c;/*333333;*/
     display: inline-block;
     text-decoration: none;
     padding: 20px 30px;
     color: #FFF;
+    background-color:#2c2c2c;/*333333;*/
 }
 
 #home:hover,#discord:hover,#shop:hover,#stock:hover,#lore:hover{
@@ -150,8 +150,10 @@ footer {
 .footer-contact h3,
 .footer-services h3,
 .footer-copyright h3 {
-    font-size: 25px;
-    padding-bottom: 20px;
+    width: 100%;
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 30px;
     color: grey;
 }
 
