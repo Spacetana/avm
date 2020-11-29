@@ -88,10 +88,13 @@ text {
 /* Footer */
 
 footer {
-    flex-shrink: 0;
-    width: 100%;
-    background: #2c2c2c;
-    position: fixed;
+  text-align: center;
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* position: fixed;
+  z-index: 1; */
     background: #2c2c2c;
 }
 .contenu-footer {
