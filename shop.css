@@ -114,6 +114,8 @@ footer {
     flex-shrink: 0;
     width: 100%;
     background: #2c2c2c;
+    position: fixed;
+    background: #2c2c2c;
 }
 .contenu-footer {
     width: 1200px;
