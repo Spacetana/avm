@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    text-align: center;
     list-style: none;
     text-decoration: none;
 }
@@ -54,11 +53,6 @@ nav li:hover a{
     align-items: flex-start;
     font-size: 20px;
     padding: 50px 0 100px;
-}
-
-.bloc {
-    width: 25%;
-    margin: 0 30px;
 }
 
 .text-payment h3,
