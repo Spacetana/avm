@@ -41,50 +41,42 @@ nav li:hover a{
 
 /* Texte */
 
-text {
-    position: center;
-    flex-shrink: 0;
-    border-top: 1px dashed #000;
-    width: 100%;
-    background: white;
+header {
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 50px;
 }
-.text-contenu {
-    width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    font-size: 20px;
-    padding: 50px 0 100px;
+header h1 {
+  font-size: 48px;
+  margin-bottom: 30px;
 }
-
-.bloc {
-    width: 25%;
-    margin: 0 30px;
+header p {
+  font-size: 22px;
 }
-
-.text-payment h3,
-.text-receive h3,
-.text-os h3 {
-    font-size: 25px;
-    padding-bottom: 20px;
-    color: black;
+main {
+  width: 90vw;
+  margin: 0 auto;
+  padding: 30px 20px;
+  /* min-height: calc(100vh - 211px - 58px); */
 }
-
-.text-payment p {
-    padding: 2px 0;
-    color: black;
+article {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
 }
-
-.text-receive p {
-    padding: 2px 0;
-    color: black;
+article:last-child {
+  margin-bottom: 0;
+}
+article h3 {
+  margin: 10px 0 25px 0;
+}
+article p {
+  margin-top: 16px;
+  line-height: 24px;
 }
 
-.text-os p {
-    padding: 5px 0;
-    color: black;
-}
 /* Footer */
 
 footer {
