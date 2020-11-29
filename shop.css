@@ -4,6 +4,9 @@
     list-style: none;
     font-family: 'arial';
     text-decoration: none;
+    display: table;
+    height: 100%;
+    width: 100%;
 }
 
 /*Menu*/
@@ -81,17 +84,12 @@ nav li:hover a{
 
 /* Footer */
 
-.footer {
-    display: table;
-    margin: 0;
-    height: 100%;
-    width: 100%;
-}
 .container {
     height: auto;
 }
 
 footer {
     display: table-row;
-    
+    height: 1px;
+    backgroud-color: #2c2c2c;
 }
