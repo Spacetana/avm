@@ -30,27 +30,9 @@
                     <input id="disque" type="submit" value="HDD">
                     <input id="stockage" type="submit" value="128 Go">
                     <input id="prix" type="submit" value="0.99€/month">
-<div id="paypal-button-container"></div>
-<script src="https://www.paypal.com/sdk/js?client-id=AcupOIg4dYt1SVv_LES3pkb-Joq4k_8OXmxuwx5N7Q9Z3zYxOiH99-UKpllloC7c7Kv_JntBlN9IhUEa&vault=true&intent=subscription" data-sdk-integration-source="button-factory"></script>
-<script>
-  paypal.Buttons({
-      style: {
-          shape: 'pill',
-          color: 'black',
-          layout: 'horizontal',
-          label: 'subscribe'
-      },
-      createSubscription: function(data, actions) {
-        return actions.subscription.create({
-          'plan_id': 'P-0ME6361156067313VL7B2SQI'
-        });
-      },
-      onApprove: function(data, actions) {
-        alert(data.subscriptionID);
-      }
-  }).render('#paypal-button-container');
-</script>
+
                 </div>
+                
                 <div class="child">
                     <h1>BEGINNER</h1>
                     <input id="proc" type="submit" value= "2 vCPU Intel E5-2673 V4">
@@ -58,30 +40,9 @@
                     <input id="disque" type="submit" value="SSD SATA">
                     <input id="stockage" type="submit" value="128 Go">
                     <input id="prix" type="submit" value="1.99€/month">
-                   
-<div id="paypal-button-container"></div>
-<script src="https://www.paypal.com/sdk/js?client-id=AcupOIg4dYt1SVv_LES3pkb-Joq4k_8OXmxuwx5N7Q9Z3zYxOiH99-UKpllloC7c7Kv_JntBlN9IhUEa&vault=true&intent=subscription" data-sdk-integration-source="button-factory"></script>
-<script>
-  paypal.Buttons({
-      style: {
-          shape: 'pill',
-          color: 'black',
-          layout: 'horizontal',
-          label: 'subscribe'
-      },
-      createSubscription: function(data, actions) {
-        return actions.subscription.create({
-          'plan_id': 'P-9AD72890R91315218L7B2SEA'
-        });
-      },
-      onApprove: function(data, actions) {
-        alert(data.subscriptionID);
-      }
-  }).render('#paypal-button-container');
-</script>
-                    
-                    
+      
                 </div>
+                
                 <div class="child">
                     <h1>STANDARD</h1>
                     <input id="proc" type="submit" value= "4 vCPU Intel E5-2673 V4">
@@ -90,26 +51,7 @@
                     <input id="stockage" type="submit" value="128 Go">
                     <input id="prix" type="submit" value="3.99€/month">
                     <div id="paypal-button-container"></div>
-<div id="paypal-button-container"></div>
-<script src="https://www.paypal.com/sdk/js?client-id=AcupOIg4dYt1SVv_LES3pkb-Joq4k_8OXmxuwx5N7Q9Z3zYxOiH99-UKpllloC7c7Kv_JntBlN9IhUEa&vault=true&intent=subscription" data-sdk-integration-source="button-factory"></script>
-<script>
-  paypal.Buttons({
-      style: {
-          shape: 'pill',
-          color: 'black',
-          layout: 'horizontal',
-          label: 'subscribe'
-      },
-      createSubscription: function(data, actions) {
-        return actions.subscription.create({
-          'plan_id': 'P-6LU816838H364741GL7B2QDA'
-        });
-      },
-      onApprove: function(data, actions) {
-        alert(data.subscriptionID);
-      }
-  }).render('#paypal-button-container');
-</script>
+
                 </div>
                 
                 <div class="child">
