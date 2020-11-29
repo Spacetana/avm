@@ -112,3 +112,9 @@ nav li:hover a{
 .innner_fooert .footer_third:last-child{
     margin-right: 0;
 }
+
+.innner_fooert .footer_third h1{
+    font-family: 'arial';
+    font-site: 22px;
+    color: white;
+}
