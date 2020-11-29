@@ -111,7 +111,6 @@ nav li:hover a{
 /* Footer */
 
 footer {
-    display: flex;
     flex-shrink: 0;
     width: 100%;
     background: #2c2c2c;
