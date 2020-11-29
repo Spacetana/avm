@@ -112,7 +112,7 @@ nav li:hover a{
 
 footer {
     flex-shrink: 0;
-    border-top: 1px dashed #000;
+    display: flex;
     width: 100%;
     background: #2c2c2c;
 }
@@ -127,7 +127,6 @@ footer {
 }
 
 .bloc {
-    display: flex;
     width: 25%;
     margin: 0 30px;
 }
