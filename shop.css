@@ -81,15 +81,69 @@ nav li:hover a{
 
 /* Footer */
 
-.container {
-    height: auto;
+footer {
+    flex-shrink: 0;
+    border-top: 1px dashed #000;
+    width: 100%;
+    background: #2c2c2c;
+}
+.contenu-footer {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 20px;
+    padding: 50px 0 100px;
 }
 
-.footer {
-  background-color: #0f215d;
-  position: fixed;
-  bottom: 0px;
-  height: 60px;
-  width: 100%;
-  z-index: 10;
+.bloc {
+    width: 25%;
+    margin: 0 30px;
+}
+
+/* Copyright */
+
+.license-copyright {
+    list-style-type: none;
+}
+.license-copyright li {
+    padding: 2px 0;
+}
+.license-copyright a {
+    text-decoration: none;
+    color: white;
+}
+.license-copyright a:hover {
+    color: grey;
+}
+
+/* contact */
+.footer-contact h3,
+.footer-services h3,
+.footer-copyright h3 {
+    font-size: 25px;
+    padding-bottom: 20px;
+    color: grey;
+}
+
+.footer-contact p {
+    padding: 5px 0;
+    color: white;
+}
+
+/* Services */
+
+.liste-services {
+    list-style-type: none;
+}
+.liste-services li {
+    padding: 2px 0;
+}
+.liste-services a {
+    text-decoration: none;
+    color: white;
+}
+.liste-services a:hover {
+    color: grey;
 }
