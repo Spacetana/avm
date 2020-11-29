@@ -30,8 +30,7 @@ nav a{
 }
 
 #home:hover,#discord:hover,#shop:hover,#stock:hover,#lore:hover{
-    border-top: 3px solid cyan;
-    background-color: darkcyan;
+    border-top: 3px solid darkgray;
 }
 
 nav li:hover a{
