@@ -15,10 +15,6 @@ nav ul{
     background-color: #2c2c2c;
 }
 
-#home{
-    float: right;
-}
-
 nav li{
     list-style-type: none;
     float: left;
