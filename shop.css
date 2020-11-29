@@ -44,7 +44,7 @@ nav li:hover a{
 
 /* Texte */
 
-text {
+.text {
     flex-shrink: 0;
     border-top: 1px dashed #000;
     width: 100%;
