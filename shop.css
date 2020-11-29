@@ -42,12 +42,13 @@ nav li:hover a{
 /* Texte */
 
 text {
-    flex-shrink: 0;
+    position: relative;
     border-top: 1px dashed #000;
     width: 100%;
     background: white;
 }
 .text-contenu {
+    position: relative;
     width: 1200px;
     margin: 0 auto;
     display: flex;
