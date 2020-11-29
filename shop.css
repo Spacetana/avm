@@ -87,3 +87,11 @@ nav li:hover a{
     height: 100%;
     width: 100%;
 }
+.container {
+    height: auto;
+}
+
+footer {
+    display: table-row;
+    
+}
