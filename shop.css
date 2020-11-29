@@ -109,14 +109,13 @@ nav li:hover a{
 /* Footer */
 
 footer {
-    position: relative;
-    margin: 0px;
-    padding: 0px;
-    overflow: hidden;
+    flex-shrink: 0;
+    border-top: 1px dashed #000;
     width: 100%;
     background: #2c2c2c;
 }
 .contenu-footer {
+    position: relative;
     width: 1200px;
     margin: 0 auto;
     display: flex;
@@ -124,8 +123,6 @@ footer {
     align-items: flex-start;
     font-size: 20px;
     padding: 50px 0 100px;
-    list-style-type: none;
-    float: center;
 }
 
 .bloc {
@@ -142,7 +139,6 @@ footer {
     padding: 2px 0;
 }
 .license-copyright a {
-    display: inline-block;
     text-decoration: none;
     color: white;
 }
@@ -173,7 +169,6 @@ footer {
     padding: 2px 0;
 }
 .liste-services a {
-    display: inline-block;
     text-decoration: none;
     color: white;
 }
