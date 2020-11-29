@@ -80,7 +80,7 @@ nav li:hover a{
     color: white;
     border-radius: 24px;
 }
-.child inpute[type="final"]{
+.child final{
     border: 0;
     background: none;
     display: block;
@@ -96,14 +96,7 @@ nav li:hover a{
     cursor: pointer;
     opacity: 1;
 }
-.child a:hover{
-    opacity: 1;
-    border-color: skyblue;
-}
 
-.child input:hover{
-    border-color: cyan;
-}
 /* Footer */
 
 footer {
