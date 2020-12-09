@@ -105,5 +105,5 @@ nav li:hover a{
 }
 
 .child nostock{
-    border-color: red;
+    border: 2px solid red;
 }
