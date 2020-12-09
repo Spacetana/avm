@@ -104,6 +104,6 @@ nav li:hover a{
     border-color: cyan;
 }
 
-.child a:nostock{
+.child #nostock{
     border: 2px solid red;
 }
