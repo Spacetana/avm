@@ -103,3 +103,7 @@ nav li:hover a{
 .child input:hover{
     border-color: cyan;
 }
+
+.child nostock{
+    border-color: red;
+}
